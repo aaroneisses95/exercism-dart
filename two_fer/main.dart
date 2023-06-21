@@ -1,6 +1,6 @@
 void main() {
-  var a = x();
-  print(a);
+  var output = two_fer();
+  print(output);
 }
 
-String x([String name = "you"]) => "Cookie for $name, cookie for me";
+String two_fer([String name = "you"]) => "Cookie for $name, cookie for me";
